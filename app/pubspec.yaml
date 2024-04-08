@@ -3,32 +3,32 @@ description: A new Flutter project.
 publish_to: "none"
 version: 1.0.0+1
 environment:
-  sdk: ">=3.0.5 <4.0.0"
+  sdk: '>=3.2.0 <4.0.0'
 
 dependency_overrides:
-  analyzer: 6.2.0
-  js: ^0.7.0
+  analyzer: ^6.4.1
+  js: ^0.7.1
 dependencies:
   async: 2.11.0
-  auto_route: 7.8.4
-  cached_network_image: 3.3.1
-  cupertino_icons: 1.0.6
-  dartx: 1.2.0
+  auto_route: ^8.0.3
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.6
+  dartx: ^1.2.0
   domain:
     path: ../domain
   flutter:
     sdk: flutter
-  flutter_bloc: 8.1.4
-  flutter_local_notifications: 16.3.2
+  flutter_bloc: ^8.1.5
+  flutter_local_notifications: ^17.0.0
   flutter_localizations:
     sdk: flutter
-  flutter_screenutil: 5.9.0
-  flutter_svg: 2.0.9
-  get_it: 7.6.7
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.7
+  get_it: ^7.6.8
   infinite_scroll_pagination: 4.0.0
   initializer:
     path: ../initializer
-  injectable: 2.3.2
+  injectable: ^2.4.1
   resources:
     path: ../resources
   rxdart: 0.27.7
@@ -36,21 +36,21 @@ dependencies:
     path: ../shared
   tuple: 2.0.2
 dev_dependencies:
-  auto_route_generator: 7.3.2
-  bloc_test: 9.1.6
-  build_runner: 2.4.8
-  custom_lint: 0.6.0
-  flutter_gen_runner: 5.4.0
-  flutter_launcher_icons: 0.13.1
-  flutter_lints: 3.0.1
-  flutter_native_splash: 2.3.11
+  auto_route_generator: ^8.0.0
+  bloc_test: ^9.1.7
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4
+  flutter_gen_runner: ^5.4.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.2
+  flutter_native_splash: ^2.4.0
   flutter_test:
     sdk: flutter
-  freezed: 2.4.7
-  freezed_annotation: 2.4.1
-  injectable_generator: 2.4.1
-  logging: 1.2.0
-  mocktail: 1.0.3
+  freezed: ^2.5.0
+  freezed_annotation: ^2.4.1
+  injectable_generator: ^2.6.1
+  logging: ^1.2.0
+  mocktail: ^1.0.3
   nals_lints:
     path: ../nals_lints
 

@@ -1,7 +1,7 @@
 name: root_pubspec
 
 environment:
-  sdk: '>=3.0.5 <4.0.0'
+  sdk: '>=3.2.0 <4.0.0'
 
 dev_dependencies:
   melos: 4.1.0
